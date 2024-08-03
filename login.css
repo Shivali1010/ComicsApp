@@ -1,0 +1,89 @@
+body { 
+    background-image: url(images/wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.page {
+    height: 100%;
+    background-color: #062d3de9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-container {
+    width: 55%;
+    border-radius: 1rem;
+    display: flex;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.left-box {
+    width: 50%;
+    background-image: url(images/spiderman.webp);
+    background-size: cover;
+    background-position: top;
+}
+.form-box {
+    width: 55%;
+    background-color: rgba(255, 255, 255, 0.904);
+    padding: 4rem 5rem;
+    box-sizing: border-box;
+}
+.form-box h2 {
+    font-family: "Mochiy Pop P One", sans-serif;
+    text-wrap: nowrap;
+    text-align: center;
+    margin: 0 0 4rem 0;
+}
+.form-box h2 span {
+    font-size: 0.8em;
+    color: white;
+    background-color: brown;
+    padding: 0.5rem 0.6rem;
+    border-radius: 50%;
+}
+.form-box form {
+    font-size: 0.95rem;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.form-box form .warning-msg {
+    font-size: 0.83rem;
+    color: red;
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+#login-button {
+    border-radius: 0.2rem;
+    margin-top: 1rem;
+}
+.form-box form input {
+    display: inline-block;
+    box-sizing: border-box;
+    border: 0.2rem solid rgb(185, 184, 184);
+    border-radius: 0.2rem;
+    padding: 0.4rem 0.6rem;
+    font-size: 1em;
+    margin-bottom: 1.5rem;
+}
+.form-box form input:focus {
+    border: 0.15rem solid brown;
+}
+
+.form-box form a {
+    margin-top: 1.3rem;
+    text-align: center;
+    color: brown;
+    font-size: 0.8rem;
+}
+.form-box form a:hover {
+    color: rgb(236, 68, 68)
+}
+.form-box form p {
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 0.2rem;
+}
+
+
